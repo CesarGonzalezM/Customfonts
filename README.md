@@ -38,4 +38,4 @@ Usage
   ```
   $style = $this->fonts->draw();
   ```
-* There you go! Print it, render it, add it to your template or the **** you always do
+* There you go! Print it, render it, add it to your template or the **** you'll always do

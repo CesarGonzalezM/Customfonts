@@ -1,9 +1,9 @@
 <?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 
-$fonts['debug']		= TRUE;			// set TRUE to go to strict mode
+$fonts['debug']		= FALSE;		// set TRUE to go to strict mode
 $fonts['folder']	= 'css/fonts';	// fonts folder
-$fonts['minify']	= TRUE;			// set TRUE if you want minified CSS
+$fonts['minify']	= FALSE;		// set TRUE if you want minified CSS
 
 $fonts['fontname']['eot']			= 'fontname-webfont.eot';
 $fonts['fontname']['eotie']			= 'fontname-webfont.eot?#iefix';
