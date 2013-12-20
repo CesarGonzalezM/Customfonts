@@ -78,7 +78,7 @@ class CI_Fonts {
 				if(strstr($param,'font-')){
 					$otemp[] = "	".$param.": ".$value.";";
 				} else if($param=='eot'){
-					$otemp[] = "	src: url('".$this->folder."/".$value."');";
+					$otemp[] = "	src: url('".site_url($this->folder."/".$value)."');";
 				} else {
 					$format = false;
 					switch($param){
@@ -96,7 +96,7 @@ class CI_Fonts {
 						break;
 					}
 					if($format){
-						$src_temp[] = "		url('".$this->folder."/".$value."') format('".$format."')";
+						$src_temp[] = "		url('".site_url($this->folder."/".$value)."') format('".$format."')";
 					}
 				}
 			}
