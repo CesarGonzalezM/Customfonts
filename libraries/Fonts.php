@@ -71,7 +71,7 @@ class CI_Fonts {
 		if($add_html_tags) $o.="<style>\n";
 		foreach($this->fonts as $fontname=>$font){
 			$o.="@font-face {\n";
-			$o.="	font-family: 'bbva';\n";
+			$o.="	font-family: '".$fontname."';\n";
 			$otemp = array();
 			$src_temp = array();
 			foreach($font as $param=>$value){
